@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["8XFXA5XBB3.app.alipto.Alipto"],
+        "components": [
+          { "/": "/app/", "?": { "token_hash": "?*", "type": "email" }, "comment": "Lien de l'e-mail de confirmation : ouvre l'appli iPhone si elle est installée, sinon l'app web" },
+          { "/": "/app/", "?": { "token_hash": "?*", "type": "signup" }, "comment": "Même lien, ancien format. Invitation et mot de passe oublié (type=invite, recovery) restent dans le navigateur : l'appli ne les gère pas (audit I-26)" }
+        ]
+      }
+    ]
+  }
+}
